@@ -8,14 +8,14 @@ Config vars are basically the variables which configure or modify bot to functio
 
 - These are the minimum required vars need to setup to make Yukki Music Bot functional.
 
-1. `API_ID` : Get it from my.telegram.org 
-2. `API_HASH`  : Get it from my.telegram.org 
-3. `BOT_TOKEN` : Get it from [@Botfather](http://t.me/BotFather) in Telegram
-4. `MONGO_DB_URI` : Get mongo db [from here.](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
-5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
-6. `MUSIC_BOT_NAME` : A name for your Music bot.
-7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+1. `API_ID` : 22925877
+2. `API_HASH`  : 38102bbcf1dac591d7434ba272071771
+3. `BOT_TOKEN` : 5958360499:AAHWfjHOi3fqeiW7r_7DNh_heyNxFShXS58
+4. `MONGO_DB_URI` : mongodb+srv://Abdullahrefai:alrefai2003@cluster0.gwcel7r.mongodb.net/?retryWrites=true&w=majority
+5. `LOG_GROUP_ID` : -1001852837405
+6. `MUSIC_BOT_NAME` : ماركوس
+7. `OWNER_ID` : 5536479156
+8. `STRING_SESSION` : BAA2k-LjV22OEUWB2_EYXWHXdmMAlAqOI6jmsOfQq-NOchNsst8tc5uWwdPZdxfYZmNJNPcZHmBV6bXGYJFJte2AQEjlgiXF1B1pPfTkkDpKwY5kBoBG8FkglP5e9P9MQeNPUmyLdI5Gl6pIEYL7_vc1RoSaz4vl2xiKiJE-FftY2M5wO9ei7OZ1pX8kGdGWcxT-NMNDdrFvMPsckc0x8EJ1s8S5eOLzPRWjBWFOIFJ8SwiIt4BS_DZcXLgKT8Y6K8f4XXGl_Km9J5cFCoJloGYLMhftFtMoaAPGfSYqfkSwLVzjlAdTwb8b1l7GkwL_lvPCt7VWWxRa3vS5-WEAjMUHAAAAAVTeBHQA
 
 
 ## Non-Mandatory Vars
@@ -28,8 +28,8 @@ Config vars are basically the variables which configure or modify bot to functio
 4. `SERVER_PLAYLIST_LIMIT` : Maximum Limit Allowed for users to save playlists on bot's server. Default to 30
 5. `PLAYLIST_FETCH_LIMIT` :  Maximum limit for fetching playlist's track from youtube, spotify, apple links. Default to 25
 6. `CLEANMODE_MINS` : Cleanmode time after which bot will delete its old messages from chats. Default to 5 Mins.
-7. `SUPPORT_CHANNEL` : If you've any channel for your music bot , fill it with your channel link
-8. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your group link
+7. `SUPPORT_CHANNEL` : https://t.me/O_O_Q_0
+8. `SUPPORT_GROUP` : https://t.me/O_O_Q_0
 
 ## Play FileSize Limit Vars
 
@@ -44,15 +44,15 @@ Config vars are basically the variables which configure or modify bot to functio
 
 - These all vars are used for setting up bot. You can edit these vars if you want , else leave all of them as it is.
 
-1. `PRIVATE_BOT_MODE` : Set it `True` if you want your bot to be private only or False for all groups. Default to False
-2. `YOUTUBE_EDIT_SLEEP` : Time sleep duration For Youtube Downloader. Default to 3 seconds
-3. `TELEGRAM_EDIT_SLEEP` : Time sleep duration For Telegram Downloader. Default to 5 seconds
-4. `AUTO_LEAVING_ASSISTANT` : Set it in `True` if you want to leave your assistant after a certain amount of time.
-5. `ASSISTANT_LEAVE_TIME` : Time after which your assistant account will leave served chats automatically. Default to 5400 seconds, i.e 90 Mins
-6. `AUTO_DOWNLOADS_CLEAR` : Set it `True` if you want to delete downloads after the music playout ends. 
-7. `AUTO_SUGGESTION_MODE` : Set it `True` if you want to bot to suggest about bot commands to random chats of your bots. 
-9. `AUTO_SUGGESTION_TIME` : Time after which your bot will suggest random 1/10 chats of your served chats about bot commands. Default to 5400 seconds, i.e 90 Mins
-10. `SET_CMDS` : Set it to `True` if you want your bot to set the commands for chat menu automatically. [Reference](https://i.postimg.cc/Bbg3LQTG/image.png)
+1. `PRIVATE_BOT_MODE` : False
+2. `YOUTUBE_EDIT_SLEEP` : 3 seconds
+3. `TELEGRAM_EDIT_SLEEP` : 5 seconds
+4. `AUTO_LEAVING_ASSISTANT` : `True`
+5. `ASSISTANT_LEAVE_TIME` : 90 Mins
+6. `AUTO_DOWNLOADS_CLEAR` : `True` 
+7. `AUTO_SUGGESTION_MODE` : `True`
+9. `AUTO_SUGGESTION_TIME` : 90 Mins
+10. `SET_CMDS` : `True` [Reference](https://i.postimg.cc/Bbg3LQTG/image.png)
 
 ## Spotify Vars
 
